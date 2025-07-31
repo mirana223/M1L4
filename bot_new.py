@@ -13,7 +13,7 @@ async def on_ready():
     print(f'{bot.user} olarak giriş yaptık')
 @bot.command()
 async def hello(ctx):
-    await ctx.send(f'Merhaba! Ben {bot.user}, bir Discord sohbet botuyum!')
+    await ctx.send(f'Merhaba Dünya! Ben {bot.user}, bir Discord sohbet botuyum!')
 @bot.command()
 async def heh(ctx, count_heh = 5):
     await ctx.send("he" * count_heh)
